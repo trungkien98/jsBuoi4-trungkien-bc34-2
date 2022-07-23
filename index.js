@@ -67,6 +67,7 @@ document.getElementById("btnYtd").onclick = function () {
     dayBefore = 31;
     monthBefore = month - 1;
     yearBefore = year;
+    product += dayBefore + "/" + monthBefore + "/" + yearBefore;
   } else if (
     day == 1 &&
     (month == 5 || month == 7 || month == 10 || month == 12)
